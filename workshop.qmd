@@ -1,0 +1,81 @@
+---
+title: "Building and Publishing Coursework Website with Quarto in RStudio"
+subtitle: ""
+author: "Dr. Kam Tin Seong<br/>Assoc. Professor of Information Systems"
+institute: "School of Computing and Information Systems,<br/>Singapore Management University"
+date: "April 11, 2026"
+css: "text.css"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    format:
+      show-notes: separate-page
+      slide-number: true
+date-format: "DD MMM YYYY"
+editor: visual
+---
+
+## Content
+
+- Installing and Setting Up R
+- Installing RTools
+- Installing git
+- Signing-up github account
+- Installing RStudio
+- Setting-up git in RStudio
+- Installing Quarto
+- Creating coursework website with Quarto
+- Rendering and pushing to github
+- Signing-up Vercel account
+- Deploying the coursework website on Vercel
+
+## Installing and Setting R
+
+-   Download R installer by visiting one of the following links:
+
+    -   [Windows user](https://cran.r-project.org/bin/windows/base/)
+
+    -   [MacOS user](https://cran.r-project.org/bin/macosx/)
+
+-   Install R by clicking on the installer. If necessary, provide the installer administrator right. Install R in the root directory when prompted.
+
+-   After the installation completed, check the environment variable of your computer. If R path is not defined, you should update the path manually.
+
+![](img/image3a.jpg){fig-align="center"}
+
+## Installing Rtools
+
+-   A toolchain bundle used for building R packages from source (those that need compilation of C/C++ or Fortran code) and for build R itself.
+
+-   Download RTools from this [site](https://cran.r-project.org/bin/windows/Rtools/).
+
+-   After the installation complete, check the environment variable of your computer to ensure that RTools path is there.
+
+![](img/image3b.jpg){width="800"}
+
+## Downloading and Installing Quarto
+
+-   Visit this [site](https://quarto.org/docs/get-started/) and download the Quarto of your choice.
+
+![](img01/image3.jpg)
+
+## Downloading and Installing git
+
+-   Visit this [site](https://git-scm.com/install/) and download git installer of your choice.
+
+![](img01/image4.jpg)
+
+## Signing-up github account
+
+-   Visit this [site](https://github.com/) and sign-up a github account.
+
+![](img01/image5.jpg)
+
+## Downloading and Installing RStudio
+
+-   Visit this [site](https://posit.co/download/rstudio-desktop/), download and install the version of RStudio Desktop supporting the OS of your laptop.
+
+![](img01/image6.jpg)
+
+

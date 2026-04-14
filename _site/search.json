@@ -2560,5 +2560,61 @@
     "title": "Lesson 1 Introduction to Visual Analytics and Applications",
     "section": "What is Visual Analytics?",
     "text": "What is Visual Analytics?\nScience of Visual Analytics"
+  },
+  {
+    "objectID": "workshop.html#content",
+    "href": "workshop.html#content",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Content",
+    "text": "Content\n\nInstalling and Setting Up R\nInstalling RTools\nInstalling git\nSigning-up github account\nInstalling RStudio\nSetting-up git in RStudio\nInstalling Quarto\nCreating coursework website with Quarto\nRendering and pushing to github\nSigning-up Vercel account\nDeploying the coursework website on Vercel"
+  },
+  {
+    "objectID": "workshop.html#installing-and-setting-r",
+    "href": "workshop.html#installing-and-setting-r",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Installing and Setting R",
+    "text": "Installing and Setting R\n\nDownload R installer by visiting one of the following links:\n\nWindows user\nMacOS user\n\nInstall R by clicking on the installer. If necessary, provide the installer administrator right. Install R in the root directory when prompted.\nAfter the installation completed, check the environment variable of your computer. If R path is not defined, you should update the path manually."
+  },
+  {
+    "objectID": "workshop.html#installing-rtools",
+    "href": "workshop.html#installing-rtools",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Installing Rtools",
+    "text": "Installing Rtools\n\nA toolchain bundle used for building R packages from source (those that need compilation of C/C++ or Fortran code) and for build R itself.\nDownload RTools from this site.\nAfter the installation complete, check the environment variable of your computer to ensure that RTools path is there."
+  },
+  {
+    "objectID": "workshop.html#downloading-and-installing-quarto",
+    "href": "workshop.html#downloading-and-installing-quarto",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Downloading and Installing Quarto",
+    "text": "Downloading and Installing Quarto\n\nVisit this site and download the Quarto of your choice."
+  },
+  {
+    "objectID": "workshop.html#downloadign-and-installing-git",
+    "href": "workshop.html#downloadign-and-installing-git",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Downloadign and Installing git",
+    "text": "Downloadign and Installing git\n\nVisit this site and download git installer of your choice."
+  },
+  {
+    "objectID": "workshop.html#downloading-and-installing-git",
+    "href": "workshop.html#downloading-and-installing-git",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Downloading and Installing git",
+    "text": "Downloading and Installing git\n\nVisit this site and download git installer of your choice."
+  },
+  {
+    "objectID": "workshop.html#signing-up-github-account",
+    "href": "workshop.html#signing-up-github-account",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Signing-up github account",
+    "text": "Signing-up github account\n\nVisit this site and sign-up a github account."
+  },
+  {
+    "objectID": "workshop.html#downloading-and-installing-rstudio",
+    "href": "workshop.html#downloading-and-installing-rstudio",
+    "title": "Building and Publishing Coursework Website with Quarto in RStudio",
+    "section": "Downloading and Installing RStudio",
+    "text": "Downloading and Installing RStudio\n\nVisit this site, download and install the version of RStudio Desktop supporting the OS of your laptop."
   }
 ]
