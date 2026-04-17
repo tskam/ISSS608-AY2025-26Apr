@@ -10,6 +10,7 @@ This page provides links to useful resources related Quarto.
 
 ## Overview
 
+-   [Kick Started Workshop](workshop.html)
 -   [Getting Started](https://quarto.org/docs/get-started/)
 -   [RStudio IDE](https://quarto.org/docs/tools/rstudio.html)
 -   [Using R](https://quarto.org/docs/computations/r.html)
