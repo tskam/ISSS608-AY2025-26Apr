@@ -431,6 +431,6 @@ This slide provides you the links to two highly recommended data visualisation b
 #| eval: false
 #| echo: false
 renderthis::to_pdf(
-  from = "https://isss608-ay2022-23apr.netlify.app/lesson/lesson01/Lesson01-VAA.html",
+  from = "https://isss608-ay2025-26apr.netlify.app/lesson/lesson01/lesson01-vaa.html",
   to = "../../_site/lesson/lesson01/Lesson01-VAA.pdf")
 ```
