@@ -1,0 +1,90 @@
+---
+title: "Take-home Exercise 1: Visual Analytics for Data Discovery"
+date: "May 7, 2026"
+date-modified: "last-modified"
+format: html
+execute: 
+  freeze: true
+editor: visual
+---
+
+::: callout-note
+This handout provides the context, task, expectations and grading criteria of Take-home Exercise 1. Students must review and understand them before getting started with the take-home exercise.
+:::
+
+## Overview
+
+**Visual Analytics** is an interdisciplinary process, where data visualization, statistics, and data mining is combined and steered by an analyst by means of appropriate visual interfaces. This integration is motivated by the attempt to combine human strengths, such as judgment and recognition of patterns, with the strengths of automatic data processing.  The goal of a visual analytics is to help data analyst to **discover the unexpected for effective data-driven decision support**.
+
+
+
+
+## Setting the scene
+
+“Insurers often carry underperforming portfolios where the root causes of poor profitability and high volatility are unknown. Leveraging visual analytics can potentially help investigate trends in underlying loss drivers, while data enrichment using external data can help refine segmentation and underwriting strategy.” [From Advanced analytics: unlocking new frontiers in P&C insurance](https://www.swissre.com/dam/jcr:3257ef4b-fe20-45e2-9700-7677702407af/sigma4_2019_en.pdf).
+
+However, the use of visual analytics to support data-driven analytical decision-making in the insurance industry has traditionally focused on dashboard reporting. This limitation is mainly due to the general lack of advanced analytical capabilities in commercial off-the-shelf data visualisation tools such as Tableau and Microsoft Power BI.
+
+Using a real-world open-access motor vehicle insurance portfolio dataset and appropriate visual analytics libraries in R, this applied visual anaytics investigation requires you to demonstrate the potential value of visual analytics techniques for exploring and analysing numerical, categorical, and temporal variables. The objective is to gain deeper insights into data distributions and identifying key factors influencing the profitability and volatility of the insurance portfolio.
+
+## The Data
+
+A real world motor vehicle insurance portfolio data set from a Spanish insurance company specialised in non-life insurance will be used in this study.  The data set and its cookbook are available for download at [Mendeley Data](https://data.mendeley.com/datasets/sw4jmdb2sm/1).
+
+## The Tasks
+
+The specific tasks of this study are:
+
+- Apply suitable univariate visual analytics techniques to explore the distributions and characteristics of numerical and categorical variables.
+
+- Apply suitable bivariate visual analytics techniques to investigate and statistically validate factors influencing the profitability and volatility of the insurance portfolio.
+
+## The Designing Tool
+
+The data should be processed by using appropriate **tidyverse** family of packages and the visual analytics must be performed by using **ggplot2** and **its extensions**.
+
+## Deliverables
+
+The deliverables for this assignment are as follows:
+
+- Executive Summary in [Quarto presentation](https://quarto.org/docs/presentations/revealjs/) format (revealjs).  The presentation must contain between 10 and 15 slides, inclusive of the cover page and contents page.  Each slide must include Speaker Notes not exceeding 150 words, providing interpretation and discussion of the patterns, distribution, and statistical insights revealed.
+
+- Reproducible Technical Report developed in [Quarto HTML](https://quarto.org/docs/reference/formats/html.html) format.  The report must:
+  - document the procedures used to prepare the analytical sandbox,
+  - justify the selection of the visual analytics techniques employed, and
+  - describe the implementation and application of the visual analytics methods.
+
+# Submission Instructions
+
+This is an individual assignment. You are required to work on the take-home exercises and prepare submission individually.
+
+The deliverable must be published on your coursework webpage.  A separate tab should be used for Take-home Exercises. 
+
+
+### Submission date
+
+The completed take-home exercise is due on **24th May 2026 (Sunday) by 11:59pm mid-night**.
+
+## Grading Criteria
+
+This assignment will be graded by using the following criteria:
+
+- **Data wrangling** (20 marks): This is an important aspect of visual analytics. You will be assessed on your ability to employ appropriate Tableau functions to import, extract, clean, transform and process data. Besides assessing your ability to use the Tableau functions, this criterion also includes your ability to clean and derive appropriate variables to meet the visual analysis need.
+
+- **Visual Analysis** (30 marks): In this exercise, you are expected to utilise the visual analytics methods introduced on lesson slides and readings materials included on the weekly course outlines, along with the R methods learned during the hands-on exercises, to perform your analysis. You will be assessed on your ability to apply these methods correctly and to provide accurate interpretations and discussions of the analysis results.
+
+- **Visual Communication** (20 marks): In this section, your ability to effectively communicate visual analysis results through user-friendly visual representations will be assessed. Since this course is focused on visual analysis, it is crucial that you demonstrate proficiency in using appropriate visualization techniques, principles and best practices to clearly convey the findings of your analysis.
+
+- **Reproducibility** (15 marks): This is a key learning outcome of this course. You will be assessed on your ability to thoroughly document the data preparation, visual analytics and visual design procedures.
+
+- **Bonus** (15 marks): Demonstrate your ability to employ methods beyond what you had learned in class to gain insights from the data. The methods used must be visual analytics in nature.
+
+## Learning from senior
+
+- [KYLIE TAN JING YI](https://akalestale.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+- [TOA ZI YING JANET](https://janettoaisss608.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+- [LEW YING ZHEN SERENA](https://isss608-spacebun.netlify.app/take-home_ex/take-home_ex1/take-home_ex1)
+- [SENG JING YI](https://jingyi-vaa.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+- [JAYA GEORGE](https://isss608-jayageorge.netlify.app/take-home_ex/take-home_ex01/take-home_ex01)
+
+## Peer Learning
