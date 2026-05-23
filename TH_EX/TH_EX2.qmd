@@ -14,7 +14,7 @@ In this take-home exercise, you are required to select **one** of the topic belo
 - [Mini-Challenge 2](https://vast-challenge.github.io/2026/MC2.html): You work in the AI systems administration department of Company A. A post was recently made on SaidIT looks like a malfunction of an agent: It is in gibberish and in a forum that appears random. Your job is to track down why this post occurred and suggest a remedy to the situation by building a visual analytics system that integrates visuals with algorithms to enable interactive exploration and documentation of the multi-agent system!
 
 ::: callout-important
-- You only need to attempt either **one out of the three Mini Cases**
+- You only need to attempt either **one out of the two Mini Cases**
 - The data should be processed by using appropriate **tidyverse** family of packages and the Visual Analytics tools must be prepared by using appropriate R packages.
 :::
 
