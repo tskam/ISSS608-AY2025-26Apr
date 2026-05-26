@@ -41,11 +41,10 @@ Your completed take-home exercise is due on **7th June 2026, by 11:59 mid-night*
 
 ## KickStarter
 
-
 ## Learning from Senior
 
-- [ISSS608 2016-17 T3 Assign GUAN YIFEI](https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_GUAN_YIFEI). Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
-- [ISSS608 2016-17 T3 Assign ZHANG YANRONG](https://wiki.smu.edu.sg/1617t3isss608g1/ISSS608_2016-17_T3_Assign_ZHANG_YANRONG). Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
+- [ISSS608 2016-17 T3 Assign GUAN YIFEI](https://visualdata.wustl.edu/varepository/VAST_Challenge_2017/challenges/Mini-Challenge_1/entries/Singapore_Management_University_-_Yifei/). Although this assignment was completed by using Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
+- [ISSS608 2016-17 T3 Assign ZHANG YANRONG](https://visualdata.wustl.edu/varepository/VAST_Challenge_2017/challenges/Grand_Challenge/entries/Singapore_Management_University/). Although this assignment was completed by using QGIS and Tableau Professional but there are a lot we can learn from the submission especially the discussion of visual insights.
 - [ISSS608 2021-22 April Term Assignment 6: Ong Zhi Rong Jordan](https://isss608-jordan-va.netlify.app/th_ex6/th_ex6.html)
 - [ISSS608 2021-22 April Term Assignment 6: Raunak Kapur](https://isss608-raunakkapur.netlify.app/th_ex/the6)
 
