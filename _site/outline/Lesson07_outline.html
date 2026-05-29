@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-01-01">
 
-<title>Visualising and Analysing Time-Oriented Data – ISSS608</title>
+<title>Lesson 7a: Visualising and Analysing Network Data – ISSS608</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -171,14 +171,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lesson-content" id="toc-lesson-content" class="nav-link active" data-scroll-target="#lesson-content">Lesson Content</a></li>
+  <li><a href="#content" id="toc-content" class="nav-link active" data-scroll-target="#content">Content</a></li>
   <li><a href="#lesson-slides-and-hands-on-notes" id="toc-lesson-slides-and-hands-on-notes" class="nav-link" data-scroll-target="#lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</a></li>
-  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a>
+  <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#all-about-r" id="toc-all-about-r" class="nav-link" data-scroll-target="#all-about-r">All About R</a>
   <ul class="collapse">
-  <li><a href="#core-readings" id="toc-core-readings" class="nav-link" data-scroll-target="#core-readings">Core Readings</a></li>
-  <li><a href="#additional-readings" id="toc-additional-readings" class="nav-link" data-scroll-target="#additional-readings">Additional Readings</a></li>
+  <li><a href="#wrangling-network-data" id="toc-wrangling-network-data" class="nav-link" data-scroll-target="#wrangling-network-data">Wrangling Network Data</a></li>
+  <li><a href="#visualisation-and-analysis" id="toc-visualisation-and-analysis" class="nav-link" data-scroll-target="#visualisation-and-analysis">Visualisation and Analysis</a></li>
   </ul></li>
-  <li><a href="#all-about-tableau" id="toc-all-about-tableau" class="nav-link" data-scroll-target="#all-about-tableau">All About Tableau</a></li>
   </ul>
 </nav>
     </div>
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Visualising and Analysing Time-Oriented Data</h1>
+<h1 class="title">Lesson 7a: Visualising and Analysing Network Data</h1>
 </div>
 
 
@@ -205,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 16, 2026</p>
+      <p class="date-modified">May 29, 2026</p>
     </div>
   </div>
     
@@ -216,70 +216,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="lesson-content" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-content">Lesson Content</h2>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content">Content</h2>
 <ul>
-<li>Characteristics of time-series data</li>
-<li>A short visual history of time-series graphs</li>
-<li>Time-series patterns</li>
-<li>Time-series data visualization Methods
+<li>Introduction to Graph Data Visualisation
 <ul>
-<li>Line graph</li>
-<li>Control chart</li>
-<li>Slopegraph</li>
-<li>Cycle plot</li>
-<li>Horizon graph</li>
-<li>Sunburst diagram</li>
-<li>Calendar Heatmap</li>
-<li>Stream Graph</li>
+<li>Basic principles of network graph</li>
+<li>Graph data visualisation in actions</li>
 </ul></li>
-<li>Interactive techniques for time-series data visualisation</li>
-<li>Animation techniques for time-series visualisation</li>
+<li>Network Graph Data
+<ul>
+<li>Network data sets</li>
+<li>Graph data format</li>
+<li>Graph Database</li>
+</ul></li>
+<li>Network Graph Visualisation Tools</li>
+<li>Designer toolkit
+<ul>
+<li>Gephi</li>
+</ul></li>
+<li>Programmer toolkit
+<ul>
+<li>R packages</li>
+</ul></li>
+<li>Graph layouts
+<ul>
+<li>Node-and-link layouts</li>
+<li>Force-directed layout</li>
+<li>Node-only layout</li>
+<li>Adjacency matrix</li>
+</ul></li>
+<li>Visual Attributes
+<ul>
+<li>Key node attributes</li>
+<li>Key edge attributes</li>
+<li>Bundles, shapes, images, and more</li>
+</ul></li>
+<li>Visual Analysis of Network Graphs
+<ul>
+<li>Relationships</li>
+<li>Hierarchies</li>
+<li>Communities</li>
+</ul></li>
+<li>Flows</li>
+<li>Spatial networks</li>
 </ul>
 </section>
 <section id="lesson-slides-and-hands-on-notes" class="level2">
 <h2 class="anchored" data-anchor-id="lesson-slides-and-hands-on-notes">Lesson Slides and Hands-on Notes</h2>
 <ul>
-<li><p><a href="../lesson/Lesson07/Lesson07-VisTime.html">Lesson 7:Visualising and Analysing Time-Oriented Data</a> slides.</p></li>
-<li><p><a href="https://r4va.netlify.app/chap17">Hands-on Exercise 7: Visualising and Analysing Time-oriented Data</a> .</p></li>
+<li><p><a href="../lesson/Lesson07/Lesson07-NetworkVis.html">Lesson 7a: Visualising and Analysing Network Data</a> slides</p></li>
+<li><p><a href="https://r4va.netlify.app/chap27">Hands-on Exercise 7a: Modelling, Visualising and Analysing Network Data with R</a>.</p></li>
 </ul>
 </section>
 <section id="readings" class="level2">
 <h2 class="anchored" data-anchor-id="readings">Readings</h2>
-<section id="core-readings" class="level3">
-<h3 class="anchored" data-anchor-id="core-readings">Core Readings</h3>
 <ul>
-<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.122.8704&amp;rep=rep1&amp;type=pdf">A taxonomy of temporal data visualization techniques</a></li>
-<li><a href="http://charliepark.org/slopegraphs/">Edward Tufte’s “Slopegraphs”</a></li>
-<li><a href="http://www.perceptualedge.com/articles/guests/intro_to_cycle_plots.pdf">Introduction to Cycle Plots</a></li>
-<li><a href="http://www.perceptualedge.com/articles/visual_business_intelligence/visualizing_change.pdf">Visualizing Change: An Innovation in Time-Series Analysis</a></li>
-<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=08076DD0A1346CB0F3AE2A98A5FB17A0?doi=10.1.1.363.5396&amp;rep=rep1&amp;type=pdf">The Development of the Horizon Graph</a></li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-00828795/document">Visual Analysis of Complex Networks for Business Intelligence with Gephi</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Graph_drawing">Graph Drawing</a></li>
+<li><a href="https://www.cs.umd.edu/users/ben/papers/Wong2011Graph.pdf">Graph Analytics - Lesson Learned and Challenges Ahead</a></li>
+<li><a href="http://noduslabs.com/cases/learn-read-interpret-network-graphs-data-visualization/">Learning to Read and Interpret Network Graph Data Visualizations</a></li>
+<li><a href="http://www.vismaster.eu/news/von/">The Visualization of Networks</a></li>
+<li><a href="http://hci.stanford.edu/jheer/projects/vizster/early_design/">ViZster: Visualizing Online Social Networks</a></li>
+<li>Adam Perer. <a href="http://perer.org/papers/adamPerer-BV_ch10.pdf">“Finding Beautiful Insights in the Chaos of Social Network Visualizations”</a>. In ’‘’Beautiful Visualization’’’. O’Reilly Press.</li>
+<li><a href="http://www.visualcomplexity.com/vc/">Visual Complexity</a></li>
 </ul>
 </section>
-<section id="additional-readings" class="level3">
-<h3 class="anchored" data-anchor-id="additional-readings">Additional Readings</h3>
+<section id="all-about-r" class="level2">
+<h2 class="anchored" data-anchor-id="all-about-r">All About R</h2>
+<section id="wrangling-network-data" class="level3">
+<h3 class="anchored" data-anchor-id="wrangling-network-data">Wrangling Network Data</h3>
 <ul>
-<li><a href="https://www.storytellingwithdata.com/blog/2020/7/27/what-is-a-slopegraph">what is a slopegraph?</a></li>
-<li><a href="http://charliepark.org/a-slopegraph-update/">Slopegraph Update</a></li>
-<li><a href="http://www.perceptualedge.com/articles/visual_business_intelligence/time_on_the_horizon.pdf">Time on the Horizon</a></li>
-<li><a href="http://www.cs.umd.edu/hcil/timesearcher/">TimeSearcher</a></li>
-<li><a href="https://www.storytellingwithdata.com/blog/2020/7/27/what-is-a-slopegraph">What is a slopegraph?</a></li>
-<li>Donahue, Rafe M.J. <a href="https://byuistats.github.io/CSE150/files/FSCPD_Donahue_callcenter.pdf"><em>Fundamental Statistical Concepts in Presenting Data: Principles for Constructing Better Graphics</em></a>. This article provide a real world example of building truthful and functional time series graph.</li>
-<li><a href="https://en.wikipedia.org/wiki/Hockey_stick_graph">Hockey stick graph</a> at wiki.</li>
-<li>Michael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) <a href="https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/1999GL900070">“Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”</a>. <em>Geophysical Research Letters</em>, Vol. 26, No.&nbsp;pp.&nbsp;759-762.</li>
-<li>The Guardian (2010) <a href="https://www.theguardian.com/environment/2010/feb/09/hockey-stick-graph-ipcc-report">“Hockey stick graph took pride of place in IPCC report, despite doubts”</a>.</li>
+<li><a href="https://www.data-imaginist.com/2017/introducing-tidygraph/%20Introducing">tidygraph</a></li>
+<li><a href="https://www.data-imaginist.com/2018/tidygraph-1-1-a-tidy-hope/">tidygraph 1.1 – A tidy hope</a></li>
+<li><a href="https://tidygraph.data-imaginist.com/">tidygraph</a></li>
 </ul>
 </section>
-</section>
-<section id="all-about-tableau" class="level2">
-<h2 class="anchored" data-anchor-id="all-about-tableau">All About Tableau</h2>
+<section id="visualisation-and-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="visualisation-and-analysis">Visualisation and Analysis</h3>
+<p><strong>ggraph</strong></p>
 <ul>
-<li><a href="http://dataremixed.com/2013/12/slopegraphs-in-tableau/">Slopegraphs in Tableau</a></li>
-<li><a href="https://www.tableau.com/learn/tutorials/on-demand/horizon-charts">Horizon Graph</a></li>
-<li><a href="https://www.tableau.com/about/blog/2017/2/viz-variety-show-heatmaps-66330">Viz Variety Show: When to use heatmap calendars</a></li>
+<li><a href="https://ggraph.data-imaginist.com/">ggraph</a></li>
+<li><a href="https://www.data-imaginist.com/2017/announcing-ggraph/">Announcing ggraph</a></li>
+<li><a href="https://www.data-imaginist.com/2019/1-giraffe-2-giraffe-go/">1 giraffe, 2 giraffe, GO!</a></li>
+<li><a href="https://ggraph.data-imaginist.com/articles/Layouts.html">Layouts</a></li>
+<li><a href="https://ggraph.data-imaginist.com/articles/Nodes.html">Nodes</a></li>
+<li><a href="https://ggraph.data-imaginist.com/articles/Edges.html">Edges</a></li>
+<li><a href="https://ggraph.data-imaginist.com/articles/tidygraph.html">tidygraph and ggraph</a></li>
+</ul>
+<p><strong>vizNetwork</strong></p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/visNetwork/index.html">visNetwork: Network Visualization using ‘vis.js’ Library</a></li>
+<li><a href="https://cran.r-project.org/web/packages/visNetwork/vignettes/Introduction-to-visNetwork.html">Introduction to visNetwork</a></li>
+<li><a href="http://datastorm-open.github.io/visNetwork/">visNetwork, an R package for interactive network visualization</a></li>
+</ul>
+<p><strong>Circular Plot</strong></p>
+<ul>
+<li><a href="https://cran.r-project.org/web/packages/circlize/index.html">circlize: circular visualization in R</a></li>
+<li><a href="https://jokergoo.github.io/circlize_book/book/">Circular Visualization in R</a></li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

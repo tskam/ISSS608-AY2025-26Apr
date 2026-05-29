@@ -149,9 +149,9 @@
   {
     "objectID": "outline/Lesson08_outline.html",
     "href": "outline/Lesson08_outline.html",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Visualising and Analysing Time-Oriented Data",
     "section": "",
-    "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
+    "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
   },
   {
     "objectID": "outline/Lesson08_outline.html#lesson-outline",
@@ -163,16 +163,16 @@
   {
     "objectID": "outline/Lesson08_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson08_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Visualising and Analysing Time-Oriented Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 8: Visualising and Analysing Geographic Data slides.\n\nHands-on Exercises:\n\nHands-on Exercise 8: Choropleth Mapping in R\nHands-on Exercise 8: Visualising Geospatial Point Data\nHands-on Exercise 8: Analytical Mapping."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 8:Visualising and Analysing Time-Oriented Data slides.\nHands-on Exercise 8: Visualising and Analysing Time-oriented Data ."
   },
   {
     "objectID": "outline/Lesson08_outline.html#readings",
     "href": "outline/Lesson08_outline.html#readings",
-    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "title": "Visualising and Analysing Time-Oriented Data",
     "section": "Readings",
-    "text": "Readings\n\nCore Reading\n\nThe Concept of Map Symbols\nProportional Symbols\nChoropleth map\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram\nWhen Maps Shouldn’t Be Maps\nWhat to consider when creating choropleth maps"
+    "text": "Readings\n\nCore Readings\n\nA taxonomy of temporal data visualization techniques\nEdward Tufte’s “Slopegraphs”\nIntroduction to Cycle Plots\nVisualizing Change: An Innovation in Time-Series Analysis\nThe Development of the Horizon Graph\n\n\n\nAdditional Readings\n\nwhat is a slopegraph?\nSlopegraph Update\nTime on the Horizon\nTimeSearcher\nWhat is a slopegraph?\nDonahue, Rafe M.J. Fundamental Statistical Concepts in Presenting Data: Principles for Constructing Better Graphics. This article provide a real world example of building truthful and functional time series graph.\nHockey stick graph at wiki.\nMichael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\nThe Guardian (2010) “Hockey stick graph took pride of place in IPCC report, despite doubts”."
   },
   {
     "objectID": "outline/Lesson08_outline.html#visualising-geographic-data-tableau-methods",
@@ -340,7 +340,7 @@
     "href": "lesson.html",
     "title": "Lesson Plan",
     "section": "",
-    "text": "Lesson\nDate\nVenue\nTopic\nRemark\n\n\n\n\n1\n18/4\nSOE/SCIS2 SR 5-2\nIntroduction to Visual Analytics\n\n\n\n2\n25/4\nSOE/SCIS2 SR 5-2\nDesigning Graphs to Enlighten\n\n\n\n3\n2/5\nSOSS/CIS Seminar Room 1-1\nInteractivity in Visual Analytics\n\n\n\n4\n9/5\nSOSS/CIS Seminar Room B1-1\nFundamentals of Visual Analytics\n\n\n\n5\n16/5\nSOSS/CIS Seminar Room B1-1\nVisual Multivariate Analysis\n\n\n\n6\n23/5\nSOSS/CIS Seminar Room B1-1\nDesigning Web-enabled Visual Analytics Application with Shiny\n\n\n\n\n30/5\n\n\nRecess\n\n\n7\n6/6\nSOSS/CIS Seminar Room B1-1\nVisualising and Analysing Time-Oriented Data\n\n\n\n8\n13/6\nSOE/SCIS2 Seminar Room B1-1\nVisualising and Analysing Geographic Data\n\n\n\n9\n20/6\nSOSS/CIS Seminar Room B1-1\nVisualising and Analysing Network Data\n\n\n\n10\n27/6\nSOSS/CIS Seminar Room B1-1\nInformation Dashboard Design\n\n\n\n11\n4/7\nTBC\nPoster Presentation\nVA Project due 5th July 2026"
+    "text": "Lesson\nDate\nVenue\nTopic\nRemarks\n\n\n1\n18/4\nSOE/SCIS2 SR 5-2\nIntroduction to Visual Analytics\n\n\n\n2\n25/4\nSOE/SCIS2 SR 5-2\nDesigning Graphs to Enlighten\n\n\n\n3\n2/5\nSOSS/CIS Seminar Room 1-1\nInteractivity in Visual Analytics\n\n\n\n4\n9/5\nSOSS/CIS Seminar Room B1-1\nFundamentals of Visual Analytics\n\n\n\n5\n16/5\nSOSS/CIS Seminar Room B1-1\nVisual Multivariate Analysis\n\n\n\n6\n23/5\nSOSS/CIS Seminar Room B1-1\nDesigning Web-enabled Visual Analytics Application with Shiny\n\n\n\n\n30/5\n\n\nRecess\n\n\n7\n6/6\nSOSS/CIS Seminar Room B1-1\n\nVisualising and Analysing Network Data\nVisualising and Analysing Text Data\n\n\n\n\n8\n13/6\nSOE/SCIS2 Seminar Room B1-1\nVisualising and Analysing Time-Oriented Data\n\n\n\n9\n20/6\nSOSS/CIS Seminar Room B1-1\nVisualising and Analysing Geographic Data\n\n\n\n10\n27/6\nSOSS/CIS Seminar Room B1-1\nInformation Dashboard Design\n\n\n\n11\n4/7\nTBC\nPoster Presentation\nVA Project due 5th July 2026"
   },
   {
     "objectID": "lesson/Lesson10/Lesson10-IDD.html#content",
@@ -2270,9 +2270,9 @@
   {
     "objectID": "outline/Lesson07_outline.html",
     "href": "outline/Lesson07_outline.html",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
     "section": "",
-    "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
+    "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
   },
   {
     "objectID": "outline/Lesson07_outline.html#lesson-content",
@@ -2284,16 +2284,16 @@
   {
     "objectID": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson07_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 7:Visualising and Analysing Time-Oriented Data slides.\nHands-on Exercise 7: Visualising and Analysing Time-oriented Data ."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 7a: Visualising and Analysing Network Data slides\nHands-on Exercise 7a: Modelling, Visualising and Analysing Network Data with R."
   },
   {
     "objectID": "outline/Lesson07_outline.html#readings",
     "href": "outline/Lesson07_outline.html#readings",
-    "title": "Visualising and Analysing Time-Oriented Data",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
     "section": "Readings",
-    "text": "Readings\n\nCore Readings\n\nA taxonomy of temporal data visualization techniques\nEdward Tufte’s “Slopegraphs”\nIntroduction to Cycle Plots\nVisualizing Change: An Innovation in Time-Series Analysis\nThe Development of the Horizon Graph\n\n\n\nAdditional Readings\n\nwhat is a slopegraph?\nSlopegraph Update\nTime on the Horizon\nTimeSearcher\nWhat is a slopegraph?\nDonahue, Rafe M.J. Fundamental Statistical Concepts in Presenting Data: Principles for Constructing Better Graphics. This article provide a real world example of building truthful and functional time series graph.\nHockey stick graph at wiki.\nMichael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\nThe Guardian (2010) “Hockey stick graph took pride of place in IPCC report, despite doubts”."
+    "text": "Readings\n\nVisual Analysis of Complex Networks for Business Intelligence with Gephi\nGraph Drawing\nGraph Analytics - Lesson Learned and Challenges Ahead\nLearning to Read and Interpret Network Graph Data Visualizations\nThe Visualization of Networks\nViZster: Visualizing Online Social Networks\nAdam Perer. “Finding Beautiful Insights in the Chaos of Social Network Visualizations”. In ’‘’Beautiful Visualization’’’. O’Reilly Press.\nVisual Complexity"
   },
   {
     "objectID": "outline/Lesson07_outline.html#all-about-tableau",
@@ -2305,9 +2305,9 @@
   {
     "objectID": "outline/Lesson09_outline.html",
     "href": "outline/Lesson09_outline.html",
-    "title": "Lesson 9: Visualising and Analysing Network Data",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
     "section": "",
-    "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
+    "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
   },
   {
     "objectID": "outline/Lesson09_outline.html#content",
@@ -2319,16 +2319,16 @@
   {
     "objectID": "outline/Lesson09_outline.html#lesson-slides-and-hands-on-notes",
     "href": "outline/Lesson09_outline.html#lesson-slides-and-hands-on-notes",
-    "title": "Lesson 9: Visualising and Analysing Network Data",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
     "section": "Lesson Slides and Hands-on Notes",
-    "text": "Lesson Slides and Hands-on Notes\n\nLesson 9: Visualising and Analysing Network Data slides\nHands-on Exercise 9: Modelling, Visualising and Analysing Network Data with R."
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 8: Visualising and Analysing Geographic Data slides.\n\nHands-on Exercises:\n\nHands-on Exercise 8: Choropleth Mapping in R\nHands-on Exercise 8: Visualising Geospatial Point Data\nHands-on Exercise 8: Analytical Mapping."
   },
   {
     "objectID": "outline/Lesson09_outline.html#readings",
     "href": "outline/Lesson09_outline.html#readings",
-    "title": "Lesson 9: Visualising and Analysing Network Data",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
     "section": "Readings",
-    "text": "Readings\n\nVisual Analysis of Complex Networks for Business Intelligence with Gephi\nGraph Drawing\nGraph Analytics - Lesson Learned and Challenges Ahead\nLearning to Read and Interpret Network Graph Data Visualizations\nThe Visualization of Networks\nViZster: Visualizing Online Social Networks\nAdam Perer. “Finding Beautiful Insights in the Chaos of Social Network Visualizations”. In ’‘’Beautiful Visualization’’’. O’Reilly Press.\nVisual Complexity"
+    "text": "Readings\n\nCore Reading\n\nThe Concept of Map Symbols\nProportional Symbols\nChoropleth map\nChoropleth Maps\nThe Basics of Data Classification\n\n\n\nAdditional Readings\n\nChoropleth Maps – A Guide to Data Classification\nBivariate Choropleth\nValue-by-alpha maps\nWhat to consider when creating choropleth maps\nChoropleth Mapping with Exploratory Data Analysis\nCartogram Maps: Data Visualization with Exaggeration\nCartogram\nWhen Maps Shouldn’t Be Maps\nWhat to consider when creating choropleth maps"
   },
   {
     "objectID": "outline/Lesson09_outline.html#all-about-r",
@@ -2693,5 +2693,796 @@
     "title": "Take-home Exercise 2",
     "section": "Reference",
     "text": "Reference\n\nAnalysis Without Data: Teaching Students to Tackle the VAST Challenge"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "",
+    "text": "Introduction Text Visualisation\n\nText data\n\nText Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nR Packages for Text Visualisation"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html#content",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html#content",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "",
+    "text": "Introduction Text Visualisation\n\nText data\n\nText Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nR Packages for Text Visualisation"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html#introduction-to-text-visualisation",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html#introduction-to-text-visualisation",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Introduction to Text Visualisation",
+    "text": "Introduction to Text Visualisation\n\nHistory of text\n\n\n\n\nText as historical archive\n\n\n\n\nText as a mode of communication\n\n\n\n\nTextual data for business intelligence analytics\n\n\n\n\nWhy Visualise Text?\n\nUnderstanding – get the “gist” of a document\nGrouping – cluster for overview or classification\nCompare – compare document collections, or\nInspect evolution of collection over time\nCorrelate – compare patterns in text to those in other data, e.g., correlate with social network\n\n\n\n\nLevels of Text Representation\n\nLexical level, transforming a string of characters into a sequence of atomic entities, called tokens.\nSyntactic level, identifying and tagging (anotating) each token’s functions.\nSemantic level, extracting of meaning and relationships between pieces of knowledge derived from the structures identified in the syntactical level.\n\n\n\n\nFundamental of Text Visualisation\nBe warn, not all text are written in English and in digital forms!"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html#text-visualisation-methods",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html#text-visualisation-methods",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Text Visualisation Methods",
+    "text": "Text Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\n\n\nTag Cloud\n\nA tag cloud (word cloud, or weighted list in visual design) is a visual representation for text data, typically used to depict keyword metadata (tags) on websites, or to visualize free form text.\n‘Tags’ are usually single words, normally listed alphabetically, and the importance of each tag is shown with font size or color.\n\n\n\nSource: Tag cloud\n\n\n\n\nApplication of Tag Cloud I: Branding\n\nOne-word tag cloud of DBS’s corporate values statement created using Many Eyes.\n\n\n\n\n\nApplication of Tag Cloud I: Branding\n\nTwo-word tag cloud of DBS’s corporate values statement created using Many Eyes."
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html#wordle",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html#wordle",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "Wordle",
+    "text": "Wordle\n\nA toy for generating “word clouds” from text that you provide\n\n\n\n\nWord Clouds of Corporate Values Statements\n\n\n\n\n\n\n\n\n\n\nWord Tree\n\nA visual search tool for unstructured text, such as a book, article, speech or poem. It lets you pick a word or phrase and shows you all the different contexts in which the word or phrase appears.\nThe contexts are arranged in a tree-like branching structure to reveal recurrent themes and phrases.\n\n\n\nSource: wordtree\n\n\n\n\nPhrase Net\n\nA phrase net diagrams the relationships between different words used in a text. It uses a simple form of pattern matching to provide multiple views of the concepts contained in a book, speech, or poem.\n\n\n\n\n\nPhrase Net\n\n\nWords separate by the keyword “and”\n\n\nWords that directly follow one another\n\n\n\n\n\n\nParallel Tag Cloud\n\n\nReference: Parallel Tag Clouds to Explore and Analyze Faceted Text Corpora\n\n\n\n\nStory Tracker: Main View\n\n\nReference: Story Tracker: Incremental visual textanalytics of news story development"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html#r-packages-for-text-visualisation",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html#r-packages-for-text-visualisation",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "R packages for Text Visualisation",
+    "text": "R packages for Text Visualisation\n\nggwordcloud: a word cloud geom for ggplot2\nTextPlot: An R package for Visualizing Text Data\ncorporaexplorer: An R package for dynamic exploration of text collections\nLDAvis: An R package for interactive topic model visualization\n\n\n\nwordcloud\n\nProvides functionality to create pretty word clouds, visualize differences and similarity between documents, and avoid over-plotting in scatter plots with text.\nVisit this link for more information.\n\n\n\n\n\nwordcloud2: Create Word Cloud by ‘htmlwidget’\n\nA fast visualization tool for creating wordcloud by using wordcloud2.js, ia JavaScript library to create wordle presentation on 2D canvas or HTML.\nIt provides Shiny functions.\nVisit this link for more information.\n\n\n\n\n\n\nggwordcloud: a word cloud geom for ggplot2\n\nggwordcloud provides a word cloud text geom for ggplot2.\nas an alternative to wordcloud and wordcloud2.\n\n\n\n\n\nWordcloud on Shiny\n\nFor live demo, visit this link\n\n\n\nTextPlot: R Library for Visualizing Text Data\n\nAims to visualise complex relations in texts.\nProvides functionalities for displaying text co-occurrence networks, text correlation networks, dependency relationships as well as text clustering.\nVisit this link for more information.\nThis example visualises the result of a text annotation which provides parts of speech tags and dependency relationships.\n\n\n\n\n\nTextPlot\n\nThis example shows plotting a biterm topic model which was pretrained and put in the package as an example.\n\n\n\n\n\nTextPlot\n\nThe following graph shows how frequently adjectives co-occur across all the documents.\n\n\n\n\n\ncorporaexplorer: An R package for dynamic exploration of text collections\n\ncorporaexplorer is an R package that uses the Shiny graphical user interface framework for dynamic exploration of text collections.\nIt’s intended primary audience are qualitatively oriented researchers who rely on close reading of textual documents as part of their academic activity.\n\n\n\n\n\ntextnets\n\n\n\nR package for automated text analysis using network techniques.\nVisit the github repository for more information.\n\nNotice that this package is not on cran yet. You need to install it by using the code install_github(“cbail/textnets”).\n\n\nReference: Bail, Christopher A. (2016) “Combining Network Analysis and Natural Language Processing to Examine how Advocacy Organizations Stimulate Conversation on Social Media.” Proceedings of the National Academy of Sciences, 113:42.\n\n\n\n\n\n\n\n\nLDAvis\n\nR package for interactive topic model visualization.\nVisit the github repository and cran for more information.\n\n\n\nSource: For live demo, visit this link."
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson05-TextVis.html#references",
+    "href": "lesson/Lesson07b/Lesson05-TextVis.html#references",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "References",
+    "text": "References\nCao, Nan and Cui, Weiwei (2016) Introduction to text visualization, Springer. This book is available at smu e-collection."
+  },
+  {
+    "objectID": "outline/Lesson08_outline.html#lesson-content",
+    "href": "outline/Lesson08_outline.html#lesson-content",
+    "title": "Visualising and Analysing Time-Oriented Data",
+    "section": "",
+    "text": "Characteristics of time-series data\nA short visual history of time-series graphs\nTime-series patterns\nTime-series data visualization Methods\n\nLine graph\nControl chart\nSlopegraph\nCycle plot\nHorizon graph\nSunburst diagram\nCalendar Heatmap\nStream Graph\n\nInteractive techniques for time-series data visualisation\nAnimation techniques for time-series visualisation"
+  },
+  {
+    "objectID": "outline/Lesson08_outline.html#all-about-tableau",
+    "href": "outline/Lesson08_outline.html#all-about-tableau",
+    "title": "Visualising and Analysing Time-Oriented Data",
+    "section": "All About Tableau",
+    "text": "All About Tableau\n\nSlopegraphs in Tableau\nHorizon Graph\nViz Variety Show: When to use heatmap calendars"
+  },
+  {
+    "objectID": "outline/Lesson07b_outline.html",
+    "href": "outline/Lesson07b_outline.html",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "",
+    "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
+  },
+  {
+    "objectID": "outline/Lesson07b_outline.html#content",
+    "href": "outline/Lesson07b_outline.html#content",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "",
+    "text": "Introduction to text data and text visualisation\nText Visualisation methods:\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nText Visualisation in R\n\ntextplot\nLDAVis\nquanteda"
+  },
+  {
+    "objectID": "outline/Lesson07b_outline.html#lesson-slides-and-hands-on-notes",
+    "href": "outline/Lesson07b_outline.html#lesson-slides-and-hands-on-notes",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "Lesson Slides and Hands-on Notes",
+    "text": "Lesson Slides and Hands-on Notes\n\nLesson 7b: Visualising and Analysing Text Data slides.\nHands-on Exercise 7b: Visualising and Analysing Text Data."
+  },
+  {
+    "objectID": "outline/Lesson07b_outline.html#readings",
+    "href": "outline/Lesson07b_outline.html#readings",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "Readings",
+    "text": "Readings\n\nCore Readings\n\nA beginner’s guide to using text in data visualization\nThe pros and cons of word clouds as visualizations"
+  },
+  {
+    "objectID": "outline/Lesson07b_outline.html#all-about-r",
+    "href": "outline/Lesson07b_outline.html#all-about-r",
+    "title": "Lesson 9: Visualising and Analysing Network Data",
+    "section": "All About R",
+    "text": "All About R\n\nWrangling Network Data\n\ntidygraph\ntidygraph 1.1 – A tidy hope\ntidygraph\n\n\n\nVisualisation and Analysis\nggraph\n\nggraph\nAnnouncing ggraph\n1 giraffe, 2 giraffe, GO!\nLayouts\nNodes\nEdges\ntidygraph and ggraph\n\nvizNetwork\n\nvisNetwork: Network Visualization using ‘vis.js’ Library\nIntroduction to visNetwork\nvisNetwork, an R package for interactive network visualization\n\nCircular Plot\n\ncirclize: circular visualization in R\nCircular Visualization in R"
+  },
+  {
+    "objectID": "outline/Lesson09_outline.html#lesson-outline",
+    "href": "outline/Lesson09_outline.html#lesson-outline",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "",
+    "text": "Introducing map\nProperties of geographical data\nTypology of map\nThematic mapping techniques\n\nProportional symbol map\nChoropleth map\nData Classification\n\nAlternative mapping techniques"
+  },
+  {
+    "objectID": "outline/Lesson09_outline.html#visualising-geographic-data-tableau-methods",
+    "href": "outline/Lesson09_outline.html#visualising-geographic-data-tableau-methods",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Visualising Geographic Data: Tableau Methods",
+    "text": "Visualising Geographic Data: Tableau Methods\n\nBasic Tutorial\n\nMaps and Geographic Data Analysis in Tableau. This chapter from the User Guide of Tableau provide a comprehensive overview of the mapping concepts and Tableau methods. I strongly recommend you to read the chapter at least once.\nLive Training: Mapping\nGetting Started with Mapping\nMaps in Tableau\nEditing Unrecognized Location\nSpatial Files\nThe Density Mark Type (Heat maps)\nExpanding Tableau’s Mapping Capabilities\nCustom Geocoding\nPolygon Maps\nBackground Images\n\n\n\nBeyond the Basic\n\nAdvanced Mapping with Tableau\n10 ways to add value to your dashboards with maps\n3 Ways to Make Magnificent Maps in Tableau\nHow to Make Trellis / Tile / Small Multiple Maps in Tableau"
+  },
+  {
+    "objectID": "outline/Lesson09_outline.html#geovisual-analytics-r-methods",
+    "href": "outline/Lesson09_outline.html#geovisual-analytics-r-methods",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "GeoVisual Analytics: R methods",
+    "text": "GeoVisual Analytics: R methods\n\nsf package\n\nSimple Features for R\nReading, Writing and Converting Simple Features\nManipulating Simple Feature Geometries\nManipulating Simple Features\nPlotting Simple Features\nMiscellaneous\nSpherical geometry in sf using s2geometry\n\n\n\nraster package\n\nraster reference\nraster package\n\n\n\nstars\n\nstars reference\nSpatiotemporal Arrays: Raster and Vector Datacubes\nIntroduction\nstars tidyverse methods\nStatistical modelling with stars objects\n\n\n\ntmap package\n\ntmap reference\ntmap: get started!\ntmap: what is changed in recent versions?\nTennekes, M., (2018)tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39.\n\n\n\nmicromap package\n\nmicromap provides functions simplifies the creation of linked micromap plots.\nLinked Micromaps\n\n\n\ngeofacet package\n\ngeofacet provides geofaceting functionality for ggplot2. Geofaceting arranges a sequence of plots of data for different geographical entities into a grid that strives to preserve some of the original geographical orientation of the entities.\nIntroduction to geofacet"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#content",
+    "href": "outline/Lesson07_outline.html#content",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "",
+    "text": "Introduction to Graph Data Visualisation\n\nBasic principles of network graph\nGraph data visualisation in actions\n\nNetwork Graph Data\n\nNetwork data sets\nGraph data format\nGraph Database\n\nNetwork Graph Visualisation Tools\nDesigner toolkit\n\nGephi\n\nProgrammer toolkit\n\nR packages\n\nGraph layouts\n\nNode-and-link layouts\nForce-directed layout\nNode-only layout\nAdjacency matrix\n\nVisual Attributes\n\nKey node attributes\nKey edge attributes\nBundles, shapes, images, and more\n\nVisual Analysis of Network Graphs\n\nRelationships\nHierarchies\nCommunities\n\nFlows\nSpatial networks"
+  },
+  {
+    "objectID": "outline/Lesson07_outline.html#all-about-r",
+    "href": "outline/Lesson07_outline.html#all-about-r",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "All About R",
+    "text": "All About R\n\nWrangling Network Data\n\ntidygraph\ntidygraph 1.1 – A tidy hope\ntidygraph\n\n\n\nVisualisation and Analysis\nggraph\n\nggraph\nAnnouncing ggraph\n1 giraffe, 2 giraffe, GO!\nLayouts\nNodes\nEdges\ntidygraph and ggraph\n\nvizNetwork\n\nvisNetwork: Network Visualization using ‘vis.js’ Library\nIntroduction to visNetwork\nvisNetwork, an R package for interactive network visualization\n\nCircular Plot\n\ncirclize: circular visualization in R\nCircular Visualization in R"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#content",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#content",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Content",
+    "text": "Content\n\nIntroduction to Graph Visual Analytics\nGraph Visualisation in Actions\nBasic Principles of Graph\nNetwork data sets\n\nGraph data format\n\nNetwork Visualisation and Analysis\n\nNetwork visualisation and analysis process model\nGraph layouts and visual attributes\nNetwork metrics"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#introduction-to-graph-analytics",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#introduction-to-graph-analytics",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Introduction to Graph Analytics",
+    "text": "Introduction to Graph Analytics\n\nWhat is Graph Analytics?\nBasic concepts of graph\nNetwork in Real World\nGraph Visualisation in Actions"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#what-is-graph-analytics-1",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#what-is-graph-analytics-1",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "What is Graph Analytics?",
+    "text": "What is Graph Analytics?\n\nFor example, in a graph representing relationships (such as “liking” or “friending” another individual’s profile or site) between individuals, graph analytics can help answer questions like the following:\n\nHow many other individuals does the average individual “friend” with?\nWhat is the maximum number of “friends” any one individual has?\nHow interconnected are groups of users with one another?\nHow many “friend” relationships does it take to get from one user to another user?\nAre there isolated groups of individuals who are connected to each other but not to individuals not in their group?\n\nApplications of Graph Analytics include clustering, partitioning, search, shortest path solution, widest path solution, finding connected components, and page rank."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#basic-principles-of-graph",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#basic-principles-of-graph",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Basic Principles of Graph",
+    "text": "Basic Principles of Graph\n\nBasic Graph\nDirect and Undirected Graphs\nWeighted Graph\nEgo-centric Graph\nBipartite Graph\nMultimodel Graph"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#network-in-real-world",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#network-in-real-world",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Network in real World",
+    "text": "Network in real World\n\nPhysical\n\nTransportation (i.e. road, port, rail, etc)\nUtility (electricity, water, gas, network cable, etc)\nNatural (river, etc)\n\nAbstract\n\nSocial media (i.e. e-mail, Facebook, Twitter, Wikipedia, etc)\nOrganisation (i.e. NGO, politics, customer-company, staff-to-staff, criminal, terrorist, disease, etc)"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-visualisation-in-action-1",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-visualisation-in-action-1",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Graph Visualisation in action 1",
+    "text": "Graph Visualisation in action 1\nUsing graph visualisation to understand business networks.\n\n\nSource: Exxon Secrets"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-visualisation-in-action-2",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-visualisation-in-action-2",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Graph Visualisation in action 2",
+    "text": "Graph Visualisation in action 2\nGraph visualisation is used to reveal voting patterns among United States senators.\n\n\nSource: Social Action"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#to-learn-more-go-to-visual-complexity",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#to-learn-more-go-to-visual-complexity",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "To learn more, go to Visual Complexity",
+    "text": "To learn more, go to Visual Complexity\n]\n\nSource: Transportation Network"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-data",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-data",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Graph Data",
+    "text": "Graph Data\n\nWhat is graph data?\nStoring graph data\n\nfile-based\ndatabase management system\nR object"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nNode and Link Data Sets\n\n\n\nFlight Stats.\nThe record indicates the city pair (that is, a link), such as ORD–LGA or LAX–ATL. Note that this particular data has directed links. ORD–LGA is a flight that starts in Chicago’s O’Hare Airport and ends at LaGuardia Airport in New York City and is different from LGA–ORD, which is a flight going in the other direction. Both links are valid."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-1",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-1",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nLink Records\n\n\n\nSometimes only links are identified in a data set. One example is network log files. Although log files may seem arcane, they contain a wealth of interesting information—for example, from where people are connecting into a corporate network, when and where big files are transferred out, patterns of regular activity (such as network backup), and patterns of irregular activity (such as hackers attempting to break in)."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-2",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-2",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nTransaction Records\n\n\n\nBy looking at the items that co-exist in a transaction, you can construct a graph. Nodes are the items, and links are the co-occurrence of items within any transaction. Examples of this type of graph include a wide variety of social networking (including e‑mail data, as well as multiple authors of documents such as books, news stories, or reports."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-3",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-3",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nSequence Data\n\n\n\nSequence data is very similar to transaction data with explicit time stamps on each record."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-4",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-4",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nUnstructured Data (for Example, Tweets)\n\n\n\nUnstructured data can also be processed to extract nodes and links.\nA means to identify nodes and identify links is required. For example, tweets are short, 140-character messages publicly broadcast on Twitter. Tweets are a rich data source from which you can mine different kinds of nodes and links by looking for co-occurrence of hash tags (that is, user-defined topics), usernames, or stock symbols within tweets, and you can extract these to form graphs."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-5",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-5",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nMatrix (for Example, Trade, Migration)\n\n\n\nSometimes a matrix of data contains the same entries in both the first column and first row. For example, global trade flows between countries can be represented as a table of numbers (http://stats.oecd.org)."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-6",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-6",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nStatistical Correlation (for Example, Stocks, News Stories)\n\n\n\nGraphs can also be created statistically."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-7",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-7",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nTwo Data Types (for Example, Board Memberships)\n\n\n\nA bipartite graph has two different types of nodes, with linkages between the different types. For example, a graph analysis of executives and their board memberships reveals the connections between companies via board members. The two different data types in this example are people and companies. These are the nodes. The board memberships are the links that connect a person to a company."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-8",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#potential-graph-data-sources-8",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Potential Graph Data Sources",
+    "text": "Potential Graph Data Sources\nMany Data Types (for Example, Social Links)\n\n\n\nPeople can be connected through many kinds of commonalities, for example, LinkedIn builds connections via companies, friendships, educational institutions, group memberships, and so on."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#popular-graph-data-file-formats",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#popular-graph-data-file-formats",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Popular Graph Data File Formats",
+    "text": "Popular Graph Data File Formats\n\nGraphML, an XML-based file format for graphs.\nGXL, graph exchange format based on XML.\nTrivial Graph Format, simple text based format.\nGML is another widely used graph exchange format.\nDGML, Directed Graph Markup Language from Microsoft.\nXGMML, an XML-based graph markup language closely related to GML.\n[Dot Language](https://en.wikipedia.org/wiki/DOT_(graph_description_language), a format for describing graphs and their presentation, for the Graphviz set of tools."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-database",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#graph-database",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Graph database",
+    "text": "Graph database\nNeo4j (Network Exploration and Optimization 4 Java) is a graph database management system developed by Neo4j, Inc.\n\n\nSource: neo4j Get Started"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#r-graph-objects",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#r-graph-objects",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "R Graph Objects",
+    "text": "R Graph Objects\n\nnetwork: Classes for Relational Data\nigraph: Network Analysis and Visualization. There is also R CRAN version of documentation. .\ntidygraph: A Tidy API for Graph Manipulation. Refer to these two articles for more information:\n\nIntroducing tidygraph\ntidygraph 1.1 – A tidy hope"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#introducing-tidygraph",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#introducing-tidygraph",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Introducing tidygraph",
+    "text": "Introducing tidygraph\n\nA tidy API for graph/network manipulation in R\nIt provides a way to switch between node and edge tables.\nIt provides dplyr verbs for manipulating node and edge tables.\nIt provides access to a lot of graph algorithms with return values that facilitate their use in a tidy workflow.\nThe full reference guide is available at this link."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#network-graph-visualisation-and-analysis",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#network-graph-visualisation-and-analysis",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Network Graph Visualisation and Analysis",
+    "text": "Network Graph Visualisation and Analysis\n\nLayouts\nVisual Attributes\nNetwork Geometrics"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#basic-visual-attributes",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#basic-visual-attributes",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Basic Visual Attributes",
+    "text": "Basic Visual Attributes"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#network-visualisation-and-analysis-process-model",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#network-visualisation-and-analysis-process-model",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Network Visualisation and Analysis Process Model",
+    "text": "Network Visualisation and Analysis Process Model\n\n\nSource: Hansen, D. L. et. al. 2009"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#network-analytics-methods",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#network-analytics-methods",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Network Analytics Methods",
+    "text": "Network Analytics Methods\n\nMapping relationships\nIdentifying hierarchies\nDetecting communities\nAnalysing flow"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#swiss-knife-for-graph-visualisation-and-analysis-i",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#swiss-knife-for-graph-visualisation-and-analysis-i",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Swiss Knife for Graph Visualisation and Analysis I",
+    "text": "Swiss Knife for Graph Visualisation and Analysis I\nNodeXL, an open-source template for Microsoft® Excel® 2007 and 2010 that makes it easy to explore network graphs."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#swiss-knife-for-graph-visualisation-and-analysis-ii",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#swiss-knife-for-graph-visualisation-and-analysis-ii",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Swiss Knife for Graph Visualisation and Analysis II",
+    "text": "Swiss Knife for Graph Visualisation and Analysis II\nGephi, an open source network graph visualisation and analysis toolkit."
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#r-package-for-network-visualisation-and-analysis",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#r-package-for-network-visualisation-and-analysis",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "R Package for Network Visualisation and Analysis",
+    "text": "R Package for Network Visualisation and Analysis\n\nNetwork analysis centric\n\nigraph\nsna\nNetwork\ntidygraph\n\nNetwork visualization centric\n\nggraph\nvizNetwork\nggnet2\ngeomnet\nggnetwork"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#references",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#references",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "References",
+    "text": "References\nHighly Recommended:\n\nRichard Brath and David Jonker (2015) Graph Analysis and Visualization: Discovering Business Opportunity in Linked Data, John Wiley & Sons. This book is available online at smu digital library.\nLuke, Douglas A. (2015) A user’s guide to network analysis in R, Springer. This book is available online at smu digital library.\n\nAdditional readings\n\nIan McCulloh, Helen Armstrong, and Anthony Johnson (2013) Social Network Analysis with Applications, Chapter 1-3. This book is available online at smu digital library.\nScott, John (2017) Social network analysis (4th Edition). This book is available online at smu digital library.)"
+  },
+  {
+    "objectID": "lesson/Lesson07/Lesson07-NetworkVis.html#geospatial-network-visualisation",
+    "href": "lesson/Lesson07/Lesson07-NetworkVis.html#geospatial-network-visualisation",
+    "title": "Lesson 7a: Visualising and Analysing Network Data",
+    "section": "Geospatial Network Visualisation",
+    "text": "Geospatial Network Visualisation\n\nThis site provides an outstanding overview and survey of various geospatial network visualisations."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "",
+    "text": "Characteristics of time-series data\nClassic ways of graphing time\nTime-series patterns\nTime-series data visualization\nInteractive techniques for time-series data visualisation\n\n\n\nIn this lesson, I am going to share with you methods and best practice for visualising and analysing time-series data. It is organised into five main sections. First, we will examine different format of time series data. This is followed by a review of selected inspiring data visualisation for revealing time series patterns. In section three, we will examine different time-series patterns graphically. In section 4, I will introduce selected not so commonly used time-series data visualisation techniques. Lastly, in section 5, we will examine how interactivity and animation can be used to enhance visual time-series data discovery."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "",
+    "text": "Characteristics of time-series data\nClassic ways of graphing time\nTime-series patterns\nTime-series data visualization\nInteractive techniques for time-series data visualisation\n\n\n\nIn this lesson, I am going to share with you methods and best practice for visualising and analysing time-series data. It is organised into five main sections. First, we will examine different format of time series data. This is followed by a review of selected inspiring data visualisation for revealing time series patterns. In section three, we will examine different time-series patterns graphically. In section 4, I will introduce selected not so commonly used time-series data visualisation techniques. Lastly, in section 5, we will examine how interactivity and animation can be used to enhance visual time-series data discovery."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\n\nA typical time-series data table\n\n\nThe data table shows a typical time-series data. The first column contains the time series values in calender month and year. It is important to note that the values must not be in character data type. The next four columns are called time-series variables. They can be categorical or numeric data type."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data-1",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data-1",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\n\nNot so friendly time-series data\n\n\nThe data table in this slide is an example of time-series data which was not organised in machine understandable time-series manner. As shown on the slide earlier, a machine understandable time-series data must be organised in rows and columns whereby of of the column must contain the date/time values. In this example, the data need to be reformatted before they can be visualised."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data-2",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data-2",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\n\nNot so friendly time-series data\n\n\nThis slide shows a typical reporting table with many formatting features such as column sub-total, row sub-total, spacing, rows separators etc. Again, this table need to be tidied before it can be used to build tiem-series visualisation effectively."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data-3",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#characteristics-of-time-series-data-3",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Characteristics of time-series data",
+    "text": "Characteristics of time-series data\n\nNot so friendly time-series data\n\n\nThe table on the slide is another good example of not so friendly time-series data set. As you can see, the temporal field was splitted into three columns and the Year and Day fields are in numeric and Month field is in character. Also note that many rows for Year and Month fields were empty. In view of this, this data also need to be tidied before it can be used to build data visualisation."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\n\nPlayfair’s Commercial and Political Atlas (1786)\n\n\nReference: William Playfair’s trade-balance time-series chart, Commercial and Political Atlas, 1786.\n\n\nIn this section, I am going share with you five very well designed time-series data visualisation and hope they inspired you. The first data visualisation is Playfair’s Commercial and Political Atlas (1786). This is not a typical time-series line graph. As you can see, the author put in conscious effort to shade the space between the import and export curve in order to reveal time interval with trade deficit and time interval with trade surplus."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs-1",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs-1",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\n\nPlayfair’s Chewing at One View Chart (1821)\n\n\nReference: William Playfair’s Price of Wheat\n\n\nThis data visualisation is also a creation of William Playfair. It is make up of two graphical methods namely bar chart and line graph. Bar chart was used to show the price trend of the quarter of wheat and line graph was used to reveal wage trends of labour by the week."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs-2",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs-2",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\n\nBump Chart shows rank of the most populous cities at each census: 1790-1890\n\n\nAn interactive version here\n\n\nThis data visualisation shows rank of the most populous cities at each census 1790-1890. Instead of using lines, this data visualisation using ellipses. The more recent times were on the left of the data visualisation and the earlier times were on the right. Note that the original data visualisation was static."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs-3",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#a-short-visual-history-of-time-series-graphs-3",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "A short visual history of time-series graphs",
+    "text": "A short visual history of time-series graphs\n\nMultiple charts showing records of the Weather in New York City for December, 1912.\n\n\nThis data visualisation shows record of the Weather in New York City for December, 1912. The bold line indicates temperature in degrees Fahrenheit. The light solid line shows wind velocity in miles per hour. The dotted line depicts relative humidity in percentage from readings taken at 8 a.m. and 8 p.m. Arrows portray the prevailing direction of the wind. Initials at the base of the chart show the weather conditions as follows: S, clear; PC, partly cloudy; C, cloudy; R, rain; Sn, snow."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#time-series-graph-that-change-public-understading",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#time-series-graph-that-change-public-understading",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Time-series graph that change public understading",
+    "text": "Time-series graph that change public understading\n\nThe Hockey Stick Chart\n\n\nReference: Michael E. Mann, Raymond S. Bradley, Malcolm K. Hughes (1999) “Northern hemisphere temperatures during the past millennium: Inferences, uncertainties, and limitations”. Geophysical Research Letters, Vol. 26, No. pp. 759-762.\n\n\nHockey stick graphs present the global or hemispherical mean temperature record of the past 500 to 2000 years as shown by quantitative climate reconstructions based on climate proxy records. These reconstructions have consistently shown a slow long term cooling trend changing into relatively rapid warming in the 20th century, with the instrumental temperature record by 2000 exceeding earlier temperatures. It is a good example of how data visualisation can be used to create global awareness of rapid warming in the 20th century."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#time-series-data-patterns",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#time-series-data-patterns",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Time-series data patterns",
+    "text": "Time-series data patterns\n\n\nTrend\nVariability\nRate of change\nCo-variation\nCycles\nExceptions\n\n\n\nIn this section, I am going share with you time-series characteristics reveal visually.\n\n\n\nTime-series Patterns: Trend\n\n\n\nThe overall or general direction of change in a series of time-series values is called the trend.\n\n\n\n\n\n\n\n\nTime-series Patterns: Trend\n\n\n\nAn upward trend.\n\n\n\n\n\n\nThis line graph reveals an upward trend of monthly visitor arrivals from Vietnam between 2007-2018.\n\n\n\n\nTime-series Patterns: Trend\n\n\n\nA mixed trends.\n\n\n\n\n\n\nThis line graph, on the other, reveals a mixed of upward and plateau trends of monthly visitor arrivals from Malaysia between 2007-2018.\n\n\n\n\nTime-series Patterns: Variability\n\nThe average degree of change from one point of time to the next throughout a particular span of time.\n\n\n\n\n\n\n\n\n\nIn order to show variability, we should avoid using a highly aggregated time interval like the line graph shown on the left of the slide.\n\n\n\n\nTime-series Patterns: Cycles\n\n\n\nCycles are patterns that repeat at regular intervals.\nFrom the line graph, we can see that visitor arrivals from United Kingdom reach its peak on January and lowest on May every year.\n\n\n\n\n\n\n\n\nTime-series Patterns: Rate of change\n\n\n\nThe percentage difference between one value to the next value.\n\n\n\n\n\n\n\n\nTime-series Patterns: Exceptions\n\n\n\nValues that fall outside the norm.\n\n\n\nThis line graph show the significant impact of SAR on the visitor arrivals pattern to Singapore."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nNot all line graphs should start at zero!\n\n\n\n\n\n\n\n\nIn this section, I am going to share with you some tips when we want to visualise time-series data. This slide shows that by keeping the y-axis starts at zero might not be able to reveal time-series patterns or trends effectivelly. Hence, it is important to customise the y-axis in search a way that it can reveal the time-series patterns effectively like the line graph on the right of the slide."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-1",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-1",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nMultiple lines in a single graph is less effective than trellis line graph\n\n\n\n\n\n\n\n\nIn order to support effective comparison, sometime trellis line graphs are more functional then a composite line graph as shown on the right of the slide."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-2",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-2",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nNot all time-series graphs have time on the x-axis\n\n\nSource: Are emerging economies deindustrializing too quickly?.\n\n\nThe connected scatter plot below reveals changes over time by joining each time event points on the scatter plot. The historical trail can be a effective alternative to animation."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-3",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-3",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nLabel line graph instead of using legend\n\n\n\n\n\n\n\n\nWhen ever possible, it is more effective to label on the line directly as shown on the line graph on the right instead of using legend."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-4",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-4",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nIn order to support comparison over time effectively, reference line should be used.\n\n\n\n\nLine chart without reference line\n\n\n\n\nLine chart with reference line"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-5",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#line-graph-design-tips-5",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Line graph design tips",
+    "text": "Line graph design tips\n\nLine chart with reference band\n\n\nThe reference used don’t have to confine a single line. A confidence interval or quantile range can be used too."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#beyond-line-graph",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#beyond-line-graph",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Beyond Line Graph",
+    "text": "Beyond Line Graph\n\nControl Chart: An analytical line chart\n\n\nControl charts, also known as Shewhart charts (after Walter A. Shewhart) or process-behavior charts. They are a statistical process control tool used to determine if a manufacturing or business process is in a state of control. Beside the average line, there are two additional lines namely the upper control limit (UCL) and lower control limit (LCL). Any data points located beyond UCL or LCL will be flag out as anomalies.\n\n\n\n\n\n\n\nControl chart in real world\n\n\nIn this use-case, control chart was used to display numbers of views of a digital news platform. Notice that two sets of reference lines were used. One for 5 and 95 percentile and upper and lower quantile."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-i-visualising-change-between-two-points-in-time",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-i-visualising-change-between-two-points-in-time",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge I: Visualising Change between Two Points in Time",
+    "text": "Challenge I: Visualising Change between Two Points in Time\n\nBar chart method"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#slopegraphs-come-to-rescue",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#slopegraphs-come-to-rescue",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Slopegraphs come to rescue!",
+    "text": "Slopegraphs come to rescue!\n\n\nSlopegraphs compare changes usually over time for a list of nouns located on an ordinal or interval scale.\n\nReference: Slopegraphs for comparing gradients: Slopegraph theory and practice\n\n\n\n\n\n\n\nLearning from the Master\nVisit Tableau Public to try out the interactive version and visit this link to learn more."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-ii-visualising-cyclical-patterns",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-ii-visualising-cyclical-patterns",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge II: Visualising cyclical patterns",
+    "text": "Challenge II: Visualising cyclical patterns\n\nClassic line graph method"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-ii-visualising-cyclical-patterns-1",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-ii-visualising-cyclical-patterns-1",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge II: Visualising cyclical patterns",
+    "text": "Challenge II: Visualising cyclical patterns\n\nSolution: Cycle plot\n\n\nReference: Intro to Cycle Plot"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-ii-visualising-cyclical-patterns-2",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-ii-visualising-cyclical-patterns-2",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge II: Visualising cyclical patterns",
+    "text": "Challenge II: Visualising cyclical patterns\n\nSolution: Sunburst diagram method"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-iii-massive-time-series-data",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-iii-massive-time-series-data",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge III: Massive Time-series Data",
+    "text": "Challenge III: Massive Time-series Data\n\nClassic line graph method\n\n\nLine graph will not be effective to reveal high number of time series lines (for example 50)"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-iii-massive-time-series-data-1",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-iii-massive-time-series-data-1",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge III: Massive Time-series Data",
+    "text": "Challenge III: Massive Time-series Data\n\nSolution: Horizon graph\n\n\nBy dividing an area chart into consecutive layers, horizon graphs present time-series data in a compact space while preserving resolution.\n\n\n\nReference: Time on the Horizon\n\n\n\n\n\n\nThe basic construct of a horizon graph\n\n\nFigure on the right shows the process of constructing an horizon graph.\n\nReference: The Developmentof the Horizon Graph\n\n\n\n\n\n\n\n\nHorizon graph in Tableau\n\n\nSource: Unemployment Horizon Chart.\n\nThis video provides step-by-step explanation on how to create a horizon graph using Tableau."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#challenge-iv-distribution-over-time",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#challenge-iv-distribution-over-time",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Challenge IV: Distribution over time",
+    "text": "Challenge IV: Distribution over time\n\n\n\nLine graph method\n\n\n\n\nBoxplot method"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#alternative-time-series-data-visualisation-methods-calendar-heatmap",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#alternative-time-series-data-visualisation-methods-calendar-heatmap",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Alternative Time-series Data Visualisation methods: Calendar Heatmap",
+    "text": "Alternative Time-series Data Visualisation methods: Calendar Heatmap\n\n\nIt is a 2-dimensional calendar view that shows a value over time through color coding it, often with warmer colors indicating higher values (hence heatmap).\n\n\n\nSource: Calender heatmap"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#alternative-time-series-data-visualisation-methods",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#alternative-time-series-data-visualisation-methods",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Alternative Time-series Data Visualisation methods",
+    "text": "Alternative Time-series Data Visualisation methods\n\nStream Graph (also know as ThemeRiver)\n\n\nA streamgraph, or stream graph, is a type of stacked area graph which is displaced around a central axis, resulting in a flowing, organic shape.\n\n\n\nReference: Steam graph"
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#visualising-change-over-time",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#visualising-change-over-time",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "Visualising Change Over Time",
+    "text": "Visualising Change Over Time\n\nAnimated bubble plot (or motion chart)\n\n\nA motion chart displays changes over time by showing movement within the two-dimensional space and changes in the size and color of the bubbles."
+  },
+  {
+    "objectID": "lesson/Lesson08/Lesson07-VisTime.html#references",
+    "href": "lesson/Lesson08/Lesson07-VisTime.html#references",
+    "title": "Lesson 7: Visualising and Analysing Time-Oriented Data",
+    "section": "References",
+    "text": "References\nClaus. O. Wilke (2019) Fundamentals of Data Visualisation, O’Reilly. USA. Chapter 13 Visualizing time series and other functions of an independent variable and Chapter 14 Visualizing trends\nIntroduction to Cycle Plots\nSlopegraphs for comparing gradients: Slopegraph theory and practice\nThe Development of the Horizon Graph"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "",
+    "text": "Introducing map\nProperties of geographical data\n\nGeographical data models\nMap projections\n\nTypology of maps\n\nReference maps\nThematic maps\n\nProportional Symbol Map\nChoropleth Map"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#what-will-you-learn-from-this-lesson",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#what-will-you-learn-from-this-lesson",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "",
+    "text": "Introducing map\nProperties of geographical data\n\nGeographical data models\nMap projections\n\nTypology of maps\n\nReference maps\nThematic maps\n\nProportional Symbol Map\nChoropleth Map"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#what-is-a-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#what-is-a-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "What is a Map?",
+    "text": "What is a Map?\nA map is a model of real world depict by a collection of cartographic symbols or/and visual abstraction."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#what-is-a-map-1",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#what-is-a-map-1",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "What is a Map?",
+    "text": "What is a Map?\nAn interface between geographical data and map users."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#a-map-and-geographical-data",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#a-map-and-geographical-data",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "A Map and Geographical Data",
+    "text": "A Map and Geographical Data"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#types-of-geographical-data",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#types-of-geographical-data",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Types of geographical data",
+    "text": "Types of geographical data"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#how-location-information-are-registered",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#how-location-information-are-registered",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "How location information are registered?",
+    "text": "How location information are registered?\n\nGeographic Coordinates Systems\nProjected Coordinates Systems"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#how-location-information-are-registered-1",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#how-location-information-are-registered-1",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "How location information are registered?",
+    "text": "How location information are registered?\n\nGeographic Coordinates Systems\n\n\n\nA geographic coordinate system defines two-dimensional coordinates based on the Earth’s surface. It has an angular unit of measure, prime meridian and datum (which contains the spheroid).\nFor example, WGS84, NAD27 and NAD83.\n\n\nSource: Geographic Coodinate Ststem@wiki"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#how-location-information-are-registered-2",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#how-location-information-are-registered-2",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "How location information are registered?",
+    "text": "How location information are registered?\n\nProjected Coordinates Systems\n\n\n\nA projected coordinate system is defined on a flat, two-dimensional surface.\nA projected coordinate system, unlike a geographic one, has the advantage that lengths, angles, and areas are constant across the two dimensions. This is not true when working in a geographic coordinate system.\nA projected coordinate system is always based on a geographic coordinate system that can use a sphere or spheroid.\n\n\n\n\nSource: Map Projection@wiki"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo serve as a piece of historical archive.\n\n\n\nSource: Battle of Singapore\n\n\nA map serves as a record of the physical and cultural environment at a particular time. For example, the map above shows Singapore in early February 1942; the disposition of Allied ground forces is in red. The main north–south transport corridor, formed by Woodlands Road and the railway, connecting the city centre (in the southeast) and The Causeway (central north), is the black line running through the centre of the island. Sarimbun is at the north west corner of the island; Bukit Timah is located close to the centre on the transport corridor; Pasir Panjang is between the city centre and the southwest corner of the island and the “Jurong Line” is the bracket-like shape in red, just west of Woodlands Roadland use allocation on Singapore Concept Plan in 2001."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-1",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-1",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo support navigation (i.e. Google Map)."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-2",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-2",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo support navigation (i.e. sea chart of Singapore)\n\n\n\nSource: Singapore electronic navigational chart"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-3",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-3",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo reveal spatial patterns.\n\n\n\n\n\n\n\nReference: John Snow Cholera Map"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-4",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#the-purpose-of-a-map-4",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "The Purpose of a Map",
+    "text": "The Purpose of a Map\n\nTo describe spatial relationship."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#typology-of-maps",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#typology-of-maps",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Typology of Maps",
+    "text": "Typology of Maps\n\n\n\nReference maps\n\n\n\nReference maps emphasize the location of spatial phenomena, such buildings, roads, vegetations, rivers, etc. Some of popular reference maps are topographical map and internet map such as Google map.\n\n\n\n\n\n\nTopographic maps are detailed, accurate graphic representations of features that appear on the Earth’s surface. These features include: cultural: roads, buildings, urban development, railways, airports, names of places and geographic features, administrative boundaries, state and international borders, reserves hydrography: lakes, rivers, streams, swamps, coastal flats relief: mountains, valleys, slopes, depressions vegetation: wooded and cleared areas, vineyards and orchards.\nA map legend (or key) lists the features shown on that map, and their corresponding symbols. Topographic maps usually show a geographic graticule and a coordinate grid, so you can determine relative and absolute positions of mapped features.\nIt is important to note that a map is merely a two or three dimensional representation of the physical environment at a given time. Therefore, a map will never be entirely up to date. Changes to the landscape and cultural features regularly occur (such as roads, vegetation, and buildings), resulting in maps becoming dated, although the rate of obsolescence varies depending upon location. Traditionally present in paper printed format.\n\n\n\n\nThematic Map\n\n\n\nThematic maps emphasize the spatial pattern of geographic attributes or statistics about places and relationships between places such as Life in Los Angeles.\n\n\nSource: Life in Los Angeles"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#thematic-mapping-principles-and-methods",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#thematic-mapping-principles-and-methods",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Thematic Mapping: Principles and Methods",
+    "text": "Thematic Mapping: Principles and Methods\n\nDisplaying\n\nQualitative data\nQuantitative data\n\nChoosing -Appropriate classification method for displaying data\n\nAppropriate number of classes\n\nTechniques in data analysis\n\nUsing the classification histogram\nNormalizing data"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-maps",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-maps",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Maps",
+    "text": "Qualitative Thematic Maps\n\nVisual Variables and Cartographic Symbols\n\n\n\nQualitative visual variables are used for nominal scale data.\nThe goal of qualitative visual variables is to show how entities differ from each other.\nThe visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.\n\nFigure on the right for examples of these four ordinal visual variables used each in point, linear and areal symbols."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Map",
+    "text": "Qualitative Thematic Map\n\nPoint symbol map\n\n\n\nDifferent point symbols are used to represent school types."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-map-1",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-map-1",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Map",
+    "text": "Qualitative Thematic Map\n\nLine symbol map\n\n\n\nA road map is an example of a thematic map. It shows the road network of an area. In this map, lines with different colour intensity and tickness are used to differentiate hierarchy of roads."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-map-2",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#qualitative-thematic-map-2",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Qualitative Thematic Map",
+    "text": "Qualitative Thematic Map\n\nArea map\n\n\n\nLand use map below is a good example of a discrete thematic map. In this map, different colours are use to represent different land use types."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#quantitative-thematic-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#quantitative-thematic-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Quantitative Thematic Map",
+    "text": "Quantitative Thematic Map\n\nVisual Variables and Cartographic Symbols\n\n\n\nQuantitative visual variables are used to display ordinal, interval or ratio scale data.\n\nThe goal of the quantitative visual variable is to show relative magnitude or order between entities.\nThe visual variables that do a good job of showing ordinal differences are: colour value, colour saturation, size and texture/grain.\n\nFigure on the right shows of these four ordinal visual variables used each in point, linear and areal symbols."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#proportional-symbol-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#proportional-symbol-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Proportional Symbol Map",
+    "text": "Proportional Symbol Map\n\nThe proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map.\n\n\n\nThe proportional symbol technique uses symbols of different sizes to represent data associated with different areas or locations within the map. For example, the proportional maps above use circle with different sizes to represent millions of people. There are two types of point features that are typically depicted with proportional symbols: features for which the data represents a geographic position directly (e.g., gallons of oil from individual oil wells), and features that are geographic areas to which data are aggregated and the data magnitudes are assigned to a representative point within the area (e.g., the geographic centroid of a state as in the examples above). In either case, the area of the symbol is scaled to represent the data magnitude, sometimes with a bit of exaggeration to adjust for a general tendency of human vision to underestimate differences in area. A variant on this direct data-to-symbol scaling groups values into categories first, then scales the symbol to represent the mean for the category, assigning a symbol to each place to represent the category range that the mean for the place falls within\n\n\n\nHow to size circles incorrectly and correctly?\nFigure below explains how attribute values are map on circles. One strategy to overcome this problem is to use square instead of circle.\n\n\n\n\nHow to make proportional symbol maps clearer?\nWhen designing a proportional symbol map, one of the important consideration is to avoid the circles blocking each other. One possible strategy to overcome this problem is to applying opacity (also known as transparency).\n\n\n\n\nProportional Symbol Map: Pie Chart Map\nOne important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a pie chart map in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories.\n\n\nOne important characteristic of proportional symbols is that they can easily be designed to represent more than one data value per location. Among the most common example is a “pie chart map” in which a circle is scaled proportionally to some total, and the size of wedges within the circle is scaled to depict a proportion of a total for two or more sub-categories. The map above uses circle size to depict total sales in each city, and the pie slices then depict proportion of the three shipping modes, namely: delivery truck, express air and regular air.\n\n\n\n\nProportional Symbol Map: Bar Chart Map\nProportional side-by-side bar map places side-by-side bar chart on a map based on the location of the observations.\n\n\n\n\nProportional Symbol Map - Junk Map\nWhen preparing a proportional symbol map, it is important to ensure that the geographical level used is the same.\n\n\nSource: COVID-19 Dashboard\n\n\n\n\nAltertive of Proportional Symbol Map: Bricks Map\nBricks Map aims to provide better ways to encode quantitative information graphically—ways that can be easily, efficiently, and accurately decoded.\n\n\nSource: Building insight with bricks.\n\n\n\n\nBricks Map versus Proportional Symbol Map\nBy plotting a proportional symbol map and a bricks map side-by-side as shown below, it is clear that bubbles of graduated sizes proportional to the value ranges that they represent can be difficult to distinguish than the bricks."
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#dot-density-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#dot-density-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Dot Density Map",
+    "text": "Dot Density Map\nA dot-density map is a type of thematic map that uses dots or other symbols on the map to show the values of one or more numeric data fields. Each dot on a dot-density map represents some amount of data.\n\n\nOne dot represent 100 households.\n\n\nReference: Dot distribution map at wiki and Dot Density Maps"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#choropleth-map",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#choropleth-map",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Choropleth Map",
+    "text": "Choropleth Map\nA choropleth map is a type of thematic map in which areas are shaded or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area, such as population or per capita income.\n\n\n\nClassified choropleth map\n\nA choropleth map can be either classified or unclassified.\nA classed choropleth map combines areal units into a smaller number of groups. Interval levels may vary, but typically 4 to 7 are used in a map. There is different classification techniques used to divide up the intervals.\n\n\n\n\n\nUnclassified choropleth map\n\nAn unclassified choropleth map is similar to a classed choropleth map; however, an unclassed choropleth maps do not have an averaged statistic towards each particular colour.\n\n\n\n\n\nChoropleth mapping technique - Number of classes\nThe readability of a choropleth map will be affected by the number of classes used.\n\n\n\nWhen a small number of classes is used, the spatial distribution reveals will be very limited.\n\n\n\n\nWhen an appropriate number of classes is used, the spatial distribution reveals will be clear.\n\n\n\n\n\n\n\nChoropleth mapping technique: Number of classes\nFigure below provided a mathematical method to determine number of classes used for preparing a choropleth map.\n\n\n\n\nChoropleth mapping technique: Methods of choosing classification scheme\n\nBased on the nature of the distribution\n\nquantile, equal interval, natural breaks, standard deviations, defined interval\n\nArbitrary\n\nCan be based on round numbers.\nExamples: Grouping according to age or census housing categories\nCan result in empty categories\n\n\n\n\n\nData classification method: Equal interval\n\nDivides the range of attribute values into equally sized classes.\n\n\n\n\n\nData classification method: Quantitle\n\nSame number of features per class.\n\n\n\n\n\n\n\n\n\nData classification method: Jenks (also known as Natural breaks)\n\nDefault Jenk’s statistical optimization by finds natural groupings in the data.\n\n\n\n\n\nData classification method: Standard deviation\n\nA measure of dispersion. Use if the distribution approximates a normal distribution.\n\n\n\n\n\nChoropleth map - Colour scheme\nColorBrewer is an online tool designed to help people select good color schemes for maps and other graphics.\n\n\n\n\nColour Scheme Tip\n\nAvoiding multiple colours in choropleth mapping\nStick with a single hue (or a small set of closely related hues) and vary intensity from pale colours for low values to increasingly darker and brighter colours for high values.\n\n\n\n\n\nTrellis choropleth map\n\n\n\nTrellis maps , also known as small multiple maps, are composed of many maps arrange side-by-side, and sometimes stacked vertically.\nSmall multiple maps enable the visualisation of how spatial relationships change with respect to another variable, such as time.\n\n\n\n\n\n\n\n\nGeofacet\nGeofacet takes data representing different geographic entities and apply a visualization method to the data for each entity, with the resulting set of visualizations being laid out in a grid that mimics the original geographic topology as closely as possible.\n\n\nSource: Singapore Property Market Watch"
+  },
+  {
+    "objectID": "lesson/Lesson09/Lesson08-VisGeo.html#reference",
+    "href": "lesson/Lesson09/Lesson08-VisGeo.html#reference",
+    "title": "Lesson 8: Visualising and Analysing Geographic Data",
+    "section": "Reference",
+    "text": "Reference\nProportional Symbols\nChoropleth Maps\nDot Density Maps\nThe Basics of Data Classification\nShould a map be interactive?\nMap interaction"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html",
+    "title": "Lesson 5: Visualising and Analysing Text Data",
+    "section": "",
+    "text": "Introduction Text Visualisation\n\nText data\n\nText Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nR Packages for Text Visualisation"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html#content",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html#content",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "Content",
+    "text": "Content\n\nIntroduction Text Visualisation\n\nText data\n\nText Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets\n\nR Packages for Text Visualisation"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html#introduction-to-text-visualisation",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html#introduction-to-text-visualisation",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "Introduction to Text Visualisation",
+    "text": "Introduction to Text Visualisation\nHistory of text"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html#text-visualisation-methods",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html#text-visualisation-methods",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "Text Visualisation Methods",
+    "text": "Text Visualisation Methods\n\nTag Cloud\nWordle\nWord Tree\nPhrase Nets"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html#wordle",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html#wordle",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "Wordle",
+    "text": "Wordle\n\nA toy for generating “word clouds” from text that you provide"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html#r-packages-for-text-visualisation",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html#r-packages-for-text-visualisation",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "R packages for Text Visualisation",
+    "text": "R packages for Text Visualisation\n\nggwordcloud: a word cloud geom for ggplot2\nTextPlot: An R package for Visualizing Text Data\ncorporaexplorer: An R package for dynamic exploration of text collections\nLDAvis: An R package for interactive topic model visualization"
+  },
+  {
+    "objectID": "lesson/Lesson07b/Lesson07b-TextVis.html#references",
+    "href": "lesson/Lesson07b/Lesson07b-TextVis.html#references",
+    "title": "Lesson 7b: Visualising and Analysing Text Data",
+    "section": "References",
+    "text": "References\nCao, Nan and Cui, Weiwei (2016) Introduction to text visualization, Springer. This book is available at smu e-collection."
   }
 ]
