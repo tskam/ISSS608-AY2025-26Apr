@@ -29,7 +29,7 @@ A good group project is a system consisting of a collection of well defined sub-
 - Brainstorming project ideas and consulting with course instructor anytime after the project topic(s) is released.
 - Editing and publishing project proposal on Vercel latest by the end of **10th June 2026 at 11:59pm (mid-night)**.
 - Uploading project poster on eLearn by **1st July 2026 (Wednesday) at 11:59pm (mid-night)**.
-- Poster presentation: **4th July 2026 (Saturday), 2:00pm-3:30pm**
+- Poster presentation: **4th July 2026 (Saturday), 1:00pm-2:30pm**
 - Submission of Shiny application repository, project website repository, project poster, Minutes of Meeting and Peer Evaluation: **5th July 2026 (Sunday) by 11:59pm (mid-night)**
 
 ## Project Deliverable
